@@ -4,7 +4,7 @@ services:
   # Plex is still reached on its LAN port as well as through Traefik: clients
   # on the LAN and Plex's remote access connect to it directly.
   plex:
-    image: ghcr.io/hotio/plex:release-1.43.4.10903-e5521bd8c@sha256:10ab071bf88b3346f6e3d82ccc55ad3fb4f0f34a55a6a6ebf9fcd170985c7095
+    image: ghcr.io/hotio/plex:release-1.43.4.10903-e5521bd8c@sha256:2bde96375feb04b11405b51f73dfbe64b136cff4c677e1fa3a0f9207d89a1162
     restart: unless-stopped
     environment:
       PUID: 99
