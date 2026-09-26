@@ -133,7 +133,7 @@ services:
       bakers.monitoring.logs: "true"
 
   lazylibrarian:
-    image: linuxserver/lazylibrarian:latest@sha256:3e26c0433f78632b93a3d95bd0a5270d6ba9f9a77091a7e6071cd58edca92def # dclint disable-line service-image-require-explicit-tag
+    image: linuxserver/lazylibrarian:latest@sha256:082858d5315c8be3b645de47eb0310cbd5f1998961d346d1389770852418d92a # dclint disable-line service-image-require-explicit-tag
     restart: unless-stopped
     environment:
       PUID: 99
