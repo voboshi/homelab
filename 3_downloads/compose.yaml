@@ -112,7 +112,7 @@ services:
 
   # hotio's mylar3 image stopped updating in 2022, so this one is linuxserver's.
   mylar3:
-    image: linuxserver/mylar3:v0.11.0-ls272@sha256:64df3a9d583e051f49fb349e9bc44f5804dab152bc866be8dd8a2869ac152cf9
+    image: linuxserver/mylar3:v0.11.0-ls273@sha256:6a29d48f51e86e44ef715a7b620a22d98d4abe27af78178ea0d7b5275eb2a763
     restart: unless-stopped
     environment:
       PUID: 99
